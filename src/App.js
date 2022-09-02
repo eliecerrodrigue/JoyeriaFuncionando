@@ -81,7 +81,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="app">
-        <Menu title="Joyeria111 Cristal        " onsearch={this.onSearch} onadd={this.addItem} />
+        <Menu title="Joyeria Cristal     " onsearch={this.onSearch} onadd={this.addItem} />
         <List className="list" items={this.state.copyJoyas} onremove={this.remove} onupdatecalificacion={this.updateRating} />
       </div>
     );
