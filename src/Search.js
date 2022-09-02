@@ -1,4 +1,6 @@
 import React from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons"
 
 class Search extends React.Component{
 
@@ -15,7 +17,7 @@ class Search extends React.Component{
 
     render(){
         return(
-            <input type="text" onChange={this.onChangeEvent} />
+            <input type="text" onChange={this.onChangeEvent} />   
         );
     }
 }

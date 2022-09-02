@@ -4,30 +4,40 @@
     border-bottom: solid 1px #ccc;
     padding: 10px;
     margin: 0 auto;
+    width: 100%;
 }
 .container .subcontainer{
-    width: 800px;
+    align-items: center;
     margin: 0 auto;
 }
 .container .subcontainer div{
     display: inline-block;
     vertical-align: middle;
+    padding-right: 50px;
+    padding-left: 25px;
+    
 }
+
 .logo{
     color: #fff;
     font-weight: bolder;
     font-size: 22px;
-    width: 100px;
+    width: 230px;
+    
 }
 
 .search{
     width: 500px;
+    align-self: middle;
 }
 
 .search input{
     width: calc(500px - 20px - 10px);
     padding: 10px;
     font-size: 16px;
+}
+.carritoDeCompras{
+    padding-left: 15px;
 }
 .actions{
     width: 150px;

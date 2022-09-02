@@ -2,6 +2,10 @@ import React, { Fragment } from 'react';
 import './Menu.css';
 import Search from './Search';
 import PanelAdd from './PanelAdd';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
+import {faRightToBracket} from "@fortawesome/free-solid-svg-icons"
+import {faGem} from "@fortawesome/free-solid-svg-icons"
 
 class Menu extends React.Component{
 
@@ -26,12 +30,23 @@ class Menu extends React.Component{
         return(
             <div className="container">
                 <div className="subcontainer">
-                    <div className="logo">{this.props.title}</div>
-                    <div className="search">
+                    <div className="logo">
+                        <FontAwesomeIcon icon={faGem} />
+                        {"   "+ this.props.title}
+                    </div>
+                    <div className="search" >
                         <Search onsearch={this.props.onsearch} />
                     </div>
                     <div className="actions">
                         <button onClick={this.add} className="button btn-blue">    Añadir nuevo producto</button>
+                    </div>
+                    <div className="userActions">
+                        <div className="carritoDeCompras" style={{fontSize:"1.5em",color:"white"}}>
+                            <FontAwesomeIcon icon={faCartShopping} />
+                        </div>
+                        <div className="Login" style={{fontSize:"1.5em",color:"white"}}>
+                            <FontAwesomeIcon icon={faRightToBracket} />
+                        </div>
                     </div>
                 </div>
                 {(this.state.newItemPanel)?
