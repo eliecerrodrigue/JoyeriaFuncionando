@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
 import Menu from './Menu';
 import List from './List';
 
