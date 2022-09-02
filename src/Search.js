@@ -17,7 +17,7 @@ class Search extends React.Component{
 
     render(){
         return(
-            <input type="text" onChange={this.onChangeEvent} />   
+            <input type="text" onChange={this.onChangeEvent} placeholder="Busca +5000 joyas" />   
         );
     }
 }
