@@ -3,21 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.0",
-    "@fortawesome/free-brands-svg-icons": "^6.2.0",
-    "@fortawesome/free-solid-svg-icons": "^6.2.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-<<<<<<< HEAD
-    "react-scripts": "^3.4.4"
-=======
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^3.3.0"
->>>>>>> 7d67d5df48a5c06a3a353b405e49cf4db07f8d43
+    "react-scripts": "3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
