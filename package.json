@@ -12,7 +12,12 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+<<<<<<< HEAD
     "react-scripts": "^3.4.4"
+=======
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^3.3.0"
+>>>>>>> 7d67d5df48a5c06a3a353b405e49cf4db07f8d43
   },
   "scripts": {
     "start": "react-scripts start",
